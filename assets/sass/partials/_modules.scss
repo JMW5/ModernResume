@@ -1,0 +1,90 @@
+@import "base";
+
+//====================HEADER===========================
+.header {
+	height: 75px;
+	background: url(../images/bg-header.png);
+	background-size: cover;
+	border-bottom: 1px solid black;
+	width: 100%;
+	position: relative;
+
+	#header-title {
+		padding: 15px;
+		letter-spacing: 1rem;
+		white-space: nowrap;
+		font-size: 32px;
+		font-weight: 700;
+		color: white;
+	}
+}
+
+//==================MAIN CONTENT========================
+.main-content {
+	background: url(../images/bg.png);
+	background-size: cover;
+	margin: 0px;
+	height: 1508px;
+	overflow: hidden;
+
+	h3 {
+		color: white;
+	}
+}
+
+#education-text ul {
+	font-family: 'Open Sans', sans-serif;
+	li {
+		font-size: 1.7rem;
+	}
+	p {
+		font-size: 1.3rem;
+	}
+}
+
+.education-list {
+	list-style-type: initial;
+	margin-left: 8%;
+	padding-bottom: 5%;
+}
+
+
+
+//===================SIDE CONTENT=======================
+.side-content {
+	margin: 0px;
+	background-color: $bg-color;
+	height: 1508px;
+	overflow: hidden;
+}
+
+.social-icons li {
+    line-height: 4rem;
+    margin: 0px;
+    font-size: 17px;
+    white-space: nowrap;
+    a {
+    	color: white;
+    }
+}
+
+.me {
+	border-radius: 250px;
+	padding: 25px;
+	box-shadow:  7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#progress {
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#progressbar {
+    background-image: none;
+    background-color: $progressBar-color;
+}
+
+#progressbar1 {
+    background-image: none;
+    background-color: $progressBar1-color;
+}
+

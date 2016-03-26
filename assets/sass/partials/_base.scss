@@ -1,0 +1,60 @@
+body {
+	margin: 0px;
+	background-color: black;
+}
+
+//========VARIABLES============
+
+$bg-color: #2D3740;
+$progressBar-color: #617587;
+$progressBar1-color: #81818e;
+
+
+
+//=============FONTS==================
+#header-title {
+	font-family: 'La Belle Aurore', cursive;
+}
+.intro-text {
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 20px;
+	color: white;
+	line-height: 26px;
+}
+.main-content-titles {
+    color: white;
+}
+
+
+//=============LAYOUT=================
+#panels {
+    margin-top: 10%;
+    text-align: left;
+    margin-bottom: 13%;
+}
+#panelbody {
+    box-shadow: 3px 3px 5px 6px;
+    background-color: #2D3740;
+    color: white;
+}
+.education-section {
+    padding-bottom: 35px;
+}
+.headlines {
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.sub-headlines {
+    text-align: left;
+    color: white;
+}
+
+.icon-padding {
+    padding-right: 2%;
+    font-size: 12px;
+}
