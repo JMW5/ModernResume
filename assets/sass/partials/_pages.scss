@@ -1,0 +1,14 @@
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+
+	.me {
+		display: none !important;
+	}
+	.main-content {
+		height: 0%;
+	}
+	.side-content {
+		height: 0%;
+	}
+}

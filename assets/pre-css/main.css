@@ -48,6 +48,10 @@ body {
 #header-title {
   font-family: 'La Belle Aurore', cursive; }
 
+#headline-title {
+  font-family: 'PT Serif', serif;
+  font-size: 3rem; }
+
 .intro-text {
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 20px;
@@ -92,6 +96,10 @@ body {
 
 #header-title {
   font-family: 'La Belle Aurore', cursive; }
+
+#headline-title {
+  font-family: 'PT Serif', serif;
+  font-size: 3rem; }
 
 .intro-text {
   font-family: 'Open Sans', sans-serif;
@@ -196,3 +204,11 @@ body {
 #progressbar1 {
   background-image: none;
   background-color: #81818e; }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .me {
+    display: none !important; }
+  .main-content {
+    height: 0%; }
+  .side-content {
+    height: 0%; } }
