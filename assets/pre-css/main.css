@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  margin: 0px;
+  background-color: black; }
+
+#header-title {
+  font-family: 'La Belle Aurore', cursive; }
+
+#headline-title {
+  font-family: 'PT Serif', serif;
+  font-size: 3rem; }
+
+.intro-text {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  color: white;
+  line-height: 26px; }
+
+.main-content-titles {
+  color: white; }
+
+#panels {
+  margin-top: 10%;
+  text-align: left;
+  margin-bottom: 13%; }
+
+#panelbody {
+  box-shadow: 3px 3px 5px 6px;
+  background-color: #2D3740;
+  color: white; }
+
+.education-section {
+  padding-bottom: 35px; }
+
+.headlines {
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  padding-bottom: 10px; }
+
+.sub-headlines {
+  text-align: left;
+  color: white; }
+
+.icon-padding {
+  padding-right: 2%;
+  font-size: 12px; }
+
+body {
+  margin: 0px;
+  background-color: black; }
+
+#header-title {
+  font-family: 'La Belle Aurore', cursive; }
+
+#headline-title {
+  font-family: 'PT Serif', serif;
+  font-size: 3rem; }
+
+.intro-text {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  color: white;
+  line-height: 26px; }
+
+.main-content-titles {
+  color: white; }
+
+#panels {
+  margin-top: 10%;
+  text-align: left;
+  margin-bottom: 13%; }
+
+#panelbody {
+  box-shadow: 3px 3px 5px 6px;
+  background-color: #2D3740;
+  color: white; }
+
+.education-section {
+  padding-bottom: 35px; }
+
+.headlines {
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  padding-bottom: 10px; }
+
+.sub-headlines {
+  text-align: left;
+  color: white; }
+
+.icon-padding {
+  padding-right: 2%;
+  font-size: 12px; }
+
+.header {
+  height: 75px;
+  background: url(../images/bg-header.png);
+  background-size: cover;
+  border-bottom: 1px solid black;
+  width: 100%;
+  position: relative; }
+  .header #header-title {
+    padding: 15px;
+    letter-spacing: 1rem;
+    white-space: nowrap;
+    font-size: 32px;
+    font-weight: 700;
+    color: white; }
+
+.main-content {
+  background: url(../images/bg.png);
+  background-size: cover;
+  margin: 0px;
+  height: 1508px;
+  overflow: hidden; }
+  .main-content h3 {
+    color: white; }
+
+#education-text ul {
+  font-family: 'Open Sans', sans-serif; }
+  #education-text ul li {
+    font-size: 1.7rem; }
+  #education-text ul p {
+    font-size: 1.3rem; }
+
+.education-list {
+  list-style-type: initial;
+  margin-left: 8%;
+  padding-bottom: 5%; }
+
+.side-content {
+  margin: 0px;
+  background-color: #2D3740;
+  height: 1508px;
+  overflow: hidden; }
+
+.social-icons li {
+  line-height: 4rem;
+  margin: 0px;
+  font-size: 17px;
+  white-space: nowrap; }
+  .social-icons li a {
+    color: white; }
+
+.me {
+  border-radius: 250px;
+  padding: 25px;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75); }
+
+#progress {
+  box-shadow: 0 8px 6px -6px black; }
+
+#progressbar {
+  background-image: none;
+  background-color: #617587; }
+
+#progressbar1 {
+  background-image: none;
+  background-color: #81818e; }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .me {
+    display: none !important; }
+  .main-content {
+    height: 0%; }
+  .side-content {
+    height: 0%; } }
