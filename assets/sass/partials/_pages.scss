@@ -1,7 +1,10 @@
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) { 
-
+	body {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
 	.me {
 		display: none !important;
 	}
@@ -11,4 +14,5 @@ and (max-device-width : 736px) {
 	.side-content {
 		height: 0%;
 	}
+
 }
